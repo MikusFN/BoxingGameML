@@ -10,7 +10,7 @@ public class AnimatorOverride : MonoBehaviour
         if (animator)
         {
             //Vector3 newPosition = transform.position;
-            //newPosition.y -= animator.GetFloat("Runspeed") * Time.deltaTime;
+            //newPosition.z += (animator.GetFloat("Runspeed") * Time.deltaTime)/10;
             //transform.position = newPosition;
         }
     }
