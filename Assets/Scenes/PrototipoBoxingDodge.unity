@@ -242,6 +242,30 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 78ff239d0bd45154fab16613326f3bfa, type: 2}
+    - target: {fileID: 2300154, guid: 9f0defd5816730c48bfa34db9ac8631f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c042ec265323f64bbe8116b760cceaa, type: 2}
+    - target: {fileID: 2300156, guid: 9f0defd5816730c48bfa34db9ac8631f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c042ec265323f64bbe8116b760cceaa, type: 2}
+    - target: {fileID: 2300130, guid: 9f0defd5816730c48bfa34db9ac8631f, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300130, guid: 9f0defd5816730c48bfa34db9ac8631f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 78ff239d0bd45154fab16613326f3bfa, type: 2}
+    - target: {fileID: 2300130, guid: 9f0defd5816730c48bfa34db9ac8631f, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100174, guid: 9f0defd5816730c48bfa34db9ac8631f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f0defd5816730c48bfa34db9ac8631f, type: 3}
   m_IsPrefabAsset: 0
@@ -336,7 +360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1598158379}
   m_Layer: 0
-  m_Name: PlayerGO
+  m_Name: Boxer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
