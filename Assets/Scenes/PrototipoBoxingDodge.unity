@@ -492,10 +492,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.24106213
+  m_Radius: 0.34895656
   m_Height: 1.8458147
   m_Direction: 1
-  m_Center: {x: 0.023201622, y: 0.9270958, z: -0.09970569}
+  m_Center: {x: 0.023201618, y: 0.9270996, z: 0.008188784}
 --- !u!114 &1922400596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -522,6 +522,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1922400599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1922400594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c957a78999b7649a9ab884f64a58a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2131351884
 Prefab:
   m_ObjectHideFlags: 0
